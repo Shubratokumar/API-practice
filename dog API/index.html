@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog API</title>
+    <style>
+        .dog-style{
+            border: 2px solid rgb(248, 0, 0);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        #dog-container{
+            display : grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        #title{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2 id="title">The Dog API</h2>
+    <button onclick="loadDog()">Load Dog</button>
+    <div id="dog-container">
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

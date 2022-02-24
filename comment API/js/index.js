@@ -7,6 +7,7 @@ const loadComment = () => {
 }
 // call loadComments
 loadComment()
+
 const displayComment = comments => {
     // console.log(comments);
     comments.forEach( comment => {
