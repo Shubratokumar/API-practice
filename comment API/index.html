@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More API</title>
+    <style>
+        .comment-style{
+            border: 2px solid purple;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .comment-detail{
+            border: 2px solid purple;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color : rgb(159, 214, 240);  
+            color :  rgb(20, 20, 20);
+        }
+        #comment-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        #comment-detail{
+            width: 50%;
+        }
+        #card-title{
+            margin-left: 10px;
+            text-decoration: underline;
+            color: rgb(0, 9, 130);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">API load</h1>
+    <!-- <button onclick="loadComment()">Load Comments</button> -->
+    <h4 id="card-title"></h4>
+    <div id="comment-detail">
+        
+    </div>
+    <div id="comment-container">
+        
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
